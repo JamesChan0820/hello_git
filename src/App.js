@@ -10,6 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <button style={{height: 100, width: 200}}>123</button>
         <a
           className="App-link"
           href="https://reactjs.org"
