@@ -13,6 +13,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <button style={{backgroundColor: 'blue'}}>456</button>
         <button 
           onClick={() => {
             alert('click!!!!')
