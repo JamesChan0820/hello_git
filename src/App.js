@@ -13,7 +13,16 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <button style={{backgroundColor: 'blue'}}>456</button>
+        <button 
+          onClick={() => {
+            alert(Date().toLocaleString())
+          }}
+          style={{
+            height: 50,
+            width: 100,
+            borderRadius: 5,
+            backgroundColor: 'blue',
+            fontSize: 20}}>456</button>
         <button 
           onClick={() => {
             alert('click!!!!')
