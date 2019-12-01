@@ -17,7 +17,12 @@ function App() {
           onClick={() => {
             alert(Date().toLocaleString())
           }}
-          style={{backgroundColor: 'blue'}}>456</button>
+          style={{
+            height: 50,
+            width: 100,
+            borderRadius: 5,
+            backgroundColor: 'blue',
+            fontSize: 20}}>456</button>
         <button 
           onClick={() => {
             alert('click!!!!')
